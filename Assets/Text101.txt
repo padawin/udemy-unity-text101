@@ -1,0 +1,94 @@
+# A - Forest
+
+The wind in the branches. This is the first sound you hear as you wake up. Lying
+on the muddy ground, your knee is scratched.
+As you get up, you find yourself in the middle of the forest, everything seems
+so foreign. Your memory is still hazy, something must have happened to you, you
+probably fell and lost consciousness.
+Now more awake, you decide to investigate around and find a way out of here.
+
+The still muddy ground seems to indicate a recent rain. Although the trees are
+dense, you can see a bit the sunlight and the sun is quite low in the sky, it
+seems to be mid-morning.
+The forest seems unspoilt, many bushes are scattered around, and you hear many
+birds singing.
+You are standing on a slope, there is a path nearby. You also spot a metallic
+structure with a cable attached to it, like some kind of zipline.
+
+You choose to:
+1 - follow the path uphill
+2 - follow the path downhill
+3 - try to use the cable to reach the high end of the zipline
+
+
+-------------------------------------------------------------------------------
+1 -> B (Clearing)
+2 -> C (Stream)
+3 -> Fail
+-------------------------------------------------------------------------------
+
+# B - Clearing
+
+You are reaching a clearing. The grass is softly dancing with the breeze. Some
+flowers can be seen, scattered among the grass.
+Most of the clearing is surrounded by the forest, except one side where a tall
+cliff starts, dark, tall like a skyscraper.
+At the rim of the clearing you see a wooden cabin, similar to those used by
+Canadian lumberjacks.
+You also see the path entering the forest, losing itself in the darkness of the
+woods.
+
+You choose to:
+1 - go back in the woods
+2 - go to the wooden cabin
+
+
+-------------------------------------------------------------------------------
+1 -> A (Forest)
+2 -> D (Cabin)
+-------------------------------------------------------------------------------
+
+# C - Stream
+
+Bridge broken by storm
+
+You choose to:
+1 - try crossing stream
+2 - use the rope to cross the bridge (NEEDS ROPE)
+3 - go back up the path
+
+
+-------------------------------------------------------------------------------
+1 -> E (Ending)
+2 -> A (Forest)
+-------------------------------------------------------------------------------
+
+# D - Cabin
+
+Can search for key
+
+You choose to:
+1 - enter the cabin (NEEDS KEY)
+2 - go back to clearing
+3 - search for a key (GIVES KEY)
+4 - try force the door open (IF NO KEY)
+
+
+-------------------------------------------------------------------------------
+1 -> F (Inside)
+2 -> B (Clearing)
+-------------------------------------------------------------------------------
+
+# E - Ending
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+# F - Inside cabin
+
+can take rope
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
