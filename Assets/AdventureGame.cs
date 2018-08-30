@@ -5,13 +5,10 @@ using UnityEngine.UI;
 
 public class AdventureGame : MonoBehaviour {
 	[SerializeField] Text textComponent;
-    [SerializeField] State introState;
-
-    State currentState;
+    [SerializeField] State currentState;
 
 	// Use this for initialization
 	void Start () {
-        currentState = introState;
         textComponent.text = currentState.getStory();
 	}
 
