@@ -19,4 +19,8 @@ public class State : ScriptableObject {
         }
         return linkedStates[index - 1];
     }
+
+    public State[] getLinkedStates() {
+        return linkedStates;
+    }
 }
