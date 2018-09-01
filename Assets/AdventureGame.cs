@@ -32,11 +32,8 @@ public class AdventureGame : MonoBehaviour {
                 // KeyCode.KeyPad0 == 256
                 || Input.GetKeyDown((KeyCode) (256 + i + 1))
             ) {
-                State s = currentState.getStateAt(1);
-                if (s != null) {
-                    currentState = s;
-                    setComponents();
-                }
+                currentState = states[i];
+                setComponents();
             }
         }
 	}

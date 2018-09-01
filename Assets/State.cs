@@ -17,14 +17,6 @@ public class State : ScriptableObject {
         return storyText;
     }
 
-    public State getStateAt(int index)
-    {
-        if (index < 1 || index > linkedStates.Length) {
-            return null;
-        }
-        return linkedStates[index - 1];
-    }
-
     public State[] getLinkedStates() {
         return linkedStates;
     }
