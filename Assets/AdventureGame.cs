@@ -4,13 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class AdventureGame : MonoBehaviour {
-	[SerializeField] Text textComponent;
+	[SerializeField] Text storyTitleComponent;
+	[SerializeField] Text storyTextComponent;
     [SerializeField] State currentState;
 
 	// Use this for initialization
 	void Start () {
-        textComponent.text = currentState.getStory();
+        setComponents();
 	}
+
+    void setComponents() {
+        storyTitleComponent.text = currentState.getStoryTitle();
+        storyTextComponent.text = currentState.getStory();
+    }
 
 	// Update is called once per frame
 	void Update () {
@@ -29,7 +35,7 @@ public class AdventureGame : MonoBehaviour {
                 State s = currentState.getStateAt(1);
                 if (s != null) {
                     currentState = s;
-                    textComponent.text = currentState.getStory();
+                    setComponents();
                 }
             }
         }

@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
   m_Name: Forest
   m_EditorClassIdentifier: 
+  storyTitle: Forest
   storyText: 'The still muddy ground seems to indicate a recent rain. Although the
     trees are dense, you can see a bit the sunlight and the sun is quite low in the
     sky, it seems to be mid-morning. The forest seems unspoilt, many bushes are scattered

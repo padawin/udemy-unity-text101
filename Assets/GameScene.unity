@@ -136,16 +136,16 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 432835588}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.025, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 567163843}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000024438, y: 402}
+  m_AnchoredPosition: {x: 0, y: 402}
   m_SizeDelta: {x: 933.9, y: 160.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &432835590
@@ -276,8 +276,8 @@ RectTransform:
   - {fileID: 720608392}
   - {fileID: 1869002005}
   - {fileID: 1225744194}
-  - {fileID: 432835589}
   - {fileID: 1622453388}
+  - {fileID: 432835589}
   - {fileID: 1294826569}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -383,7 +383,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68c7d77fcb7024b4295af87089bbe66e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 1294826570}
+  storyTitleComponent: {fileID: 432835590}
+  storyTextComponent: {fileID: 1294826570}
   currentState: {fileID: 11400000, guid: eda2b458cfc30db4ca6d8fbd97c8dd94, type: 2}
 --- !u!224 &1003318147
 RectTransform:
@@ -715,7 +716,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 567163843}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

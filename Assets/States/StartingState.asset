@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
   m_Name: StartingState
   m_EditorClassIdentifier: 
+  storyTitle: A rough awakening
   storyText: 'The wind in the branches. This is the first sound you hear as you wake
     up. Lying on the muddy ground, your knee is scratched. As you get up, you find
     yourself in the middle of the forest, everything seems so foreign. Your memory

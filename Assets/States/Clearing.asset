@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
   m_Name: Clearing
   m_EditorClassIdentifier: 
+  storyTitle: Clearing
   storyText: 'You are reaching a clearing. The grass is softly dancing with the breeze.
     Some flowers can be seen, scattered among the grass.
 
