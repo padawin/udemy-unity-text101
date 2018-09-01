@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
+  m_Name: EndingLose
+  m_EditorClassIdentifier: 
+  storyTitle: You lost
+  storyText: 'Slowly you enter the water, the current is very strong and the water
+    is whipping your legs.
+
+    You make good progress, but as you reach about the middle, the stone under your
+    foot slips and makes you lose your balance. Quickly, the torrent gains over your
+    efforts to stay up and you fall, carried away. The last thing you notice as you
+    drawn is the horrified looks and scream of your friends, witnessing the tragedy,
+    unable to do anything to help you...'
+  linkedStates: []

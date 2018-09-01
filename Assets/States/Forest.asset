@@ -24,8 +24,7 @@ MonoBehaviour:
 
     1 - follow the path uphill
 
-    2 - follow the path downhill
-
-    3 - try to use the cable to reach the high end of the zipline'
+    2 - follow the path downhill'
   linkedStates:
   - {fileID: 11400000, guid: 64c7b46038eb2b042a063b6ed5c447c6, type: 2}
+  - {fileID: 11400000, guid: 90a211b7eec931a44af3b172ba3a782a, type: 2}

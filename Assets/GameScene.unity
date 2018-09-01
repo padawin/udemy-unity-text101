@@ -385,7 +385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyTitleComponent: {fileID: 432835590}
   storyTextComponent: {fileID: 1294826570}
-  currentState: {fileID: 11400000, guid: eda2b458cfc30db4ca6d8fbd97c8dd94, type: 2}
+  currentState: {fileID: 11400000, guid: 36b9ec2b7fbf3cc43895e163cd7c27fc, type: 2}
 --- !u!224 &1003318147
 RectTransform:
   m_ObjectHideFlags: 0

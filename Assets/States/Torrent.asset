@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
+  m_Name: Torrent
+  m_EditorClassIdentifier: 
+  storyTitle: Torrent
+  storyText: "As you exit the forest, you reach a torrent. The flow is strong... dangerously
+    strong. \nYou notice a bridge, or rather what remains of a bridge, Last night's
+    rain was probably more a storm than a drizzle actually. The water probably broke
+    the bridge then.\nThen, as you look on the other side, you notice people and recognise
+    your friends! After calling them a few times, they hear you over the noise of
+    the water.\nIt becomes clear that your only way out is to cross this torrent.\n\nYou
+    choose to:\n1 - try crossing stream with the rope\n2 - try crossing stream without
+    the rope\n3 - go back up the path"
+  linkedStates:
+  - {fileID: 11400000, guid: f715c767bd3d66b4daa1c9e093e1e102, type: 2}
+  - {fileID: 11400000, guid: cd9fcda3d24b3754dabad4db4e906e9b, type: 2}
+  - {fileID: 11400000, guid: 9b9de32a79f031840bedbf7ecd64a4ed, type: 2}

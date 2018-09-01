@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
+  m_Name: CabinOutside
+  m_EditorClassIdentifier: 
+  storyTitle: Outside the cabin
+  storyText: 'The cabin seems in a very good state, probably regularly in use. As
+    you look around, you see a pile of wooden logs, an axe is stuck in one of them.
+
+    There are also a few pots with flowers and vegetables planted.
+
+    You look inside the cabin, it looks empty.
+
+    The door of the cabin is locked, maybe the key is hidden somewhere...
+
+    As you walk around the house, you see a similar structure as the zipline you saw
+    in the forest, could it be the same one?
+
+
+    You choose to:
+
+    1 - search for the key
+
+    2 - go back in the clearing
+
+    3 - force the cabin door open
+
+    4 - use the zipline'
+  linkedStates:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 64c7b46038eb2b042a063b6ed5c447c6, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 9b9de32a79f031840bedbf7ecd64a4ed, type: 2}
