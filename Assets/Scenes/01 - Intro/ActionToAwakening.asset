@@ -11,4 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28cdf84fc62268249ae1987689038ef1, type: 3}
   m_Name: ActionToAwakening
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  sceneManager: {fileID: 11400000, guid: 164cf74671d05b1438b3c2ec403859c3, type: 2}
+  newScene: {fileID: 11400000, guid: eda2b458cfc30db4ca6d8fbd97c8dd94, type: 2}

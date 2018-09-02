@@ -11,7 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
   m_Name: AwakeningScene
   m_EditorClassIdentifier: 
-  linkedScenes:
-  - {fileID: 11400000, guid: 9b9de32a79f031840bedbf7ecd64a4ed, type: 2}
   storyTitle: A rough awakening
-  states: []
+  states:
+  - {fileID: 11400000, guid: eeab5aaa6d294d34587e331365ba60f6, type: 2}

@@ -11,4 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99bf45150c2dc241a9b1379efa74243, type: 3}
   m_Name: State
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: Intro
+  condition: {fileID: 0}
+  actions:
+  - {fileID: 11400000, guid: 26594ac231bf3d14e8c1c71c7be8b735, type: 2}

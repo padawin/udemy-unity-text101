@@ -385,7 +385,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneTitleComponent: {fileID: 432835590}
   sceneTextComponent: {fileID: 1294826570}
-  currentScene: {fileID: 11400000, guid: e2655a710bd81b24dad1a3cb43646c0e, type: 2}
+  initialScene: {fileID: 11400000, guid: 36b9ec2b7fbf3cc43895e163cd7c27fc, type: 2}
+  sceneManager: {fileID: 11400000, guid: 164cf74671d05b1438b3c2ec403859c3, type: 2}
 --- !u!224 &1003318147
 RectTransform:
   m_ObjectHideFlags: 0
