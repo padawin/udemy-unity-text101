@@ -383,9 +383,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68c7d77fcb7024b4295af87089bbe66e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  storyTitleComponent: {fileID: 432835590}
-  storyTextComponent: {fileID: 1294826570}
-  currentState: {fileID: 11400000, guid: 36b9ec2b7fbf3cc43895e163cd7c27fc, type: 2}
+  sceneTitleComponent: {fileID: 432835590}
+  sceneTextComponent: {fileID: 1294826570}
+  currentScene: {fileID: 11400000, guid: e2655a710bd81b24dad1a3cb43646c0e, type: 2}
 --- !u!224 &1003318147
 RectTransform:
   m_ObjectHideFlags: 0

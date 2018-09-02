@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
+  m_Name: _SceneCabinOutside
+  m_EditorClassIdentifier: 
+  storyTitle: Outside the cabin
+  states:
+  - {fileID: 11400000, guid: 2e893ca4f9887ff4096f02451f337136, type: 2}
+  - {fileID: 11400000, guid: 2981bb8ce72f7164e9c9651976c0d0ab, type: 2}
+  - {fileID: 11400000, guid: 2b0ed7a115e00a54ea485ce45e185901, type: 2}
+  - {fileID: 11400000, guid: c81319077617fae40841abdc797f3775, type: 2}
