@@ -20,8 +20,8 @@ public class AdventureGame : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        var states = currentState.getLinkedStates();
-        int nbStates = states.Length;
+        var scenes = currentState.getLinkedScenes();
+        int nbStates = scenes.Length;
         // There can only be up to 9 linked states (for the 1 to 9
         // digits of the keyboard). For the players, it does not 
         // make sense to use 0 as 10th.
@@ -32,7 +32,7 @@ public class AdventureGame : MonoBehaviour {
                 // KeyCode.KeyPad0 == 256
                 || Input.GetKeyDown((KeyCode) (256 + i + 1))
             ) {
-                currentState = states[i];
+                currentState = scenes[i];
                 setComponents();
             }
         }

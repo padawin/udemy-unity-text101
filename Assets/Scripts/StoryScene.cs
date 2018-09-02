@@ -7,7 +7,7 @@ using UnityEngine;
 public class StoryScene : ScriptableObject {
     [SerializeField] string storyTitle;
     [TextArea(10, 14)] [SerializeField] string storyText;
-    [SerializeField] StoryScene[] linkedStates;
+    [SerializeField] StoryScene[] linkedScenes;
 
     public string getStoryTitle() {
         return storyTitle;
@@ -17,7 +17,7 @@ public class StoryScene : ScriptableObject {
         return storyText;
     }
 
-    public StoryScene[] getLinkedStates() {
-        return linkedStates;
+    public StoryScene[] getLinkedScenes() {
+        return linkedScenes;
     }
 }
