@@ -11,7 +11,7 @@ public class SceneState : ScriptableObject {
     [SerializeField] SceneAction[] actions;
 
     public bool isValid() {
-        return condition.test();
+        return condition == null || condition.test();
     }
 
     public string getStory() {
