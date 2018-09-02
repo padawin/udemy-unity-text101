@@ -6,18 +6,19 @@ using UnityEngine.UI;
 public class AdventureGame : MonoBehaviour {
 	[SerializeField] Text sceneTitleComponent;
 	[SerializeField] Text sceneTextComponent;
-	// [SerializeField] Text sceneChoicesComponent;
-    [SerializeField] StoryScene currentScene;
+    [SerializeField] StoryScene initialScene;
+    [SerializeField] SceneManager sceneManager;
 
 	// Use this for initialization
 	void Start () {
+        sceneManager.setScene(initialScene);
         setComponents();
 	}
 
     void setComponents() {
-        sceneTitleComponent.text = currentScene.getStoryTitle();
-        sceneTextComponent.text = currentScene.getStory();
-        // sceneChoicesComponent.text = currentScene.getChoices();
+        sceneTitleComponent.text = sceneManager.getScene().getStoryTitle();
+        sceneTextComponent.text = sceneManager.getScene().getStory();
+        // sceneChoicesComponent.text = sceneManager.getScene().getChoices();
     }
 
 	// Update is called once per frame
@@ -32,8 +33,8 @@ public class AdventureGame : MonoBehaviour {
                 // KeyCode.KeyPad0 == 256
                 || Input.GetKeyDown((KeyCode) (256 + i + 1))
             ) {
-                if (currentScene.hasAction(i)) {
-                    currentScene.executeAction(i);
+                if (sceneManager.getScene().hasAction(i)) {
+                    sceneManager.getScene().executeAction(i);
                     setComponents();
                     break;
                 }
