@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class AdventureGame : MonoBehaviour {
 	[SerializeField] Text storyTitleComponent;
 	[SerializeField] Text storyTextComponent;
-    [SerializeField] State currentState;
+    [SerializeField] StoryScene currentState;
 
 	// Use this for initialization
 	void Start () {
