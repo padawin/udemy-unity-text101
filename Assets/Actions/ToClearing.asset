@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28cdf84fc62268249ae1987689038ef1, type: 3}
-  m_Name: ActionToAwakening
+  m_Name: ToClearing
   m_EditorClassIdentifier: 
   sceneManager: {fileID: 11400000, guid: 164cf74671d05b1438b3c2ec403859c3, type: 2}
-  newScene: {fileID: 11400000, guid: eda2b458cfc30db4ca6d8fbd97c8dd94, type: 2}
+  newScene: {fileID: 11400000, guid: 64c7b46038eb2b042a063b6ed5c447c6, type: 2}

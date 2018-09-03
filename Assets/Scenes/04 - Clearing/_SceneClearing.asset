@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
-  m_Name: EndingScene
+  m_Name: _SceneClearing
   m_EditorClassIdentifier: 
-  linkedScenes: []
-  storyTitle: 
-  states: []
+  storyTitle: Clearing
+  states:
+  - {fileID: 11400000, guid: 4a79156458ed05c4487372576ce950e5, type: 2}

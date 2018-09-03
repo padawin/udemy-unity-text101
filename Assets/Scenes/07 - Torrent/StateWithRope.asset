@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c99bf45150c2dc241a9b1379efa74243, type: 3}
+  m_Name: StateWithRope
+  m_EditorClassIdentifier: 
+  storyText: "As you exit the forest, you reach a torrent. The flow is strong... dangerously
+    strong. \r\nYou notice a bridge, or rather what remains of a bridge, Last night's
+    rain was probably more a storm than a drizzle actually. The water probably broke
+    the bridge then.\r\nThen, as you look on the other side, you notice people and
+    recognise your friends! After calling them a few times, they hear you over the
+    noise of the water.\r\nIt becomes clear that your only way out is to cross this
+    torrent.\r\n\r\nYou choose to:\r\n1 - use the rope to cross the torrent\n2 - go
+    back up the path"
+  condition: {fileID: 11400000, guid: 6ec2ceb6f2b639f499688fc209ef5df8, type: 2}
+  actions:
+  - {fileID: 11400000, guid: c345d40abd42d114ebf9705a635267da, type: 2}
+  - {fileID: 11400000, guid: 1637883b81cb340439a6b76ab9b50e8d, type: 2}

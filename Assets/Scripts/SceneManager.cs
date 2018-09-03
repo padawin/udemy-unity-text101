@@ -6,6 +6,7 @@ public class SceneManager : ScriptableObject {
 
     public void setScene(StoryScene scene) {
         currentScene = scene;
+        currentScene.setState();
     }
 
     public StoryScene getScene() {

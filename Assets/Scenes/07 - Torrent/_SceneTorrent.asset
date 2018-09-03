@@ -9,10 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
-  m_Name: ClearingScene
+  m_Name: _SceneTorrent
   m_EditorClassIdentifier: 
-  linkedScenes:
-  - {fileID: 11400000, guid: 9b9de32a79f031840bedbf7ecd64a4ed, type: 2}
-  - {fileID: 11400000, guid: e2655a710bd81b24dad1a3cb43646c0e, type: 2}
-  storyTitle: Clearing
-  states: []
+  storyTitle: Torrent
+  states:
+  - {fileID: 11400000, guid: bc3d33f3ef4df634f8c0ff08ccc3d9cc, type: 2}
+  - {fileID: 11400000, guid: 7662961575c611c4ea3dc274da5f92c4, type: 2}

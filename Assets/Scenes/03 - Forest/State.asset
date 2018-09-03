@@ -11,4 +11,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99bf45150c2dc241a9b1379efa74243, type: 3}
   m_Name: State
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "The still muddy ground seems to indicate a recent rain. \nAlthough the
+    trees are dense, you can see a bit the sunlight and the sun is quite low in the
+    sky, it seems to be mid-morning. \nThe forest seems unspoilt, many bushes are
+    scattered around, and you hear many birds singing. \nYou are standing on a slope,
+    there is a path nearby. You also spot a metallic structure with a cable attached
+    to it, like some kind of zipline.\r\n\r\nYou choose to:\r\n1 - follow the path
+    uphill\r\n2 - follow the path downhill\r"
+  condition: {fileID: 0}
+  actions:
+  - {fileID: 11400000, guid: 1c7297d2d0121ff44934ce89efc2075e, type: 2}
+  - {fileID: 11400000, guid: d481965d8b8830b47ad7033095d9b4c9, type: 2}

@@ -11,10 +11,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99bf45150c2dc241a9b1379efa74243, type: 3}
   m_Name: StateClosedNoKeyFound
   m_EditorClassIdentifier: 
-  storyText: 'no key found
-
-
-    1 - get key'
+  storyText: "The cabin seems in a very good state, probably regularly in use. As
+    you look around, you see a pile of wooden logs, an axe is stuck in one of them.\r
+    There are also a few pots with flowers and vegetables planted.\r You look inside
+    the cabin, it looks empty.\r\nThe door of the cabin is locked, maybe the key is
+    hidden somewhere...\r\nAs you walk around the house, you see a similar structure
+    as the zipline you saw in the forest, could it be the same one?\r\n\r\nYou choose
+    to:\r\n1 - search for the key\n2 - go back in the clearing\r\n3 - use the zipline"
   condition: {fileID: 11400000, guid: b71098d752e85814d9310cf78a1ee759, type: 2}
   actions:
   - {fileID: 11400000, guid: 4adc81ef21efabb4d8b6f49d09bbd8fb, type: 2}
+  - {fileID: 11400000, guid: 1c7297d2d0121ff44934ce89efc2075e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 1637883b81cb340439a6b76ab9b50e8d, type: 2}

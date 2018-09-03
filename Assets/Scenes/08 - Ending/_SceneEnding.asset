@@ -9,10 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
-  m_Name: ForestScene
+  m_Name: _SceneEnding
   m_EditorClassIdentifier: 
-  linkedScenes:
-  - {fileID: 11400000, guid: 64c7b46038eb2b042a063b6ed5c447c6, type: 2}
-  - {fileID: 11400000, guid: 90a211b7eec931a44af3b172ba3a782a, type: 2}
-  storyTitle: Forest
-  states: []
+  storyTitle: The End
+  states:
+  - {fileID: 11400000, guid: e145c7b95db8d904e9b4eaf5dded2a2b, type: 2}
+  - {fileID: 11400000, guid: cb8723f4bd0443f44b5b3e6f6d635672, type: 2}

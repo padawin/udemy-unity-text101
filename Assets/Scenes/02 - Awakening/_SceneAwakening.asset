@@ -8,7 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c99bf45150c2dc241a9b1379efa74243, type: 3}
-  m_Name: WithRopeState
+  m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
+  m_Name: _SceneAwakening
   m_EditorClassIdentifier: 
-  storyText: 
+  storyTitle: A rough awakening
+  states:
+  - {fileID: 11400000, guid: eeab5aaa6d294d34587e331365ba60f6, type: 2}

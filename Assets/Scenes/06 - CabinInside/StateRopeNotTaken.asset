@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c99bf45150c2dc241a9b1379efa74243, type: 3}
+  m_Name: StateRopeNotTaken
+  m_EditorClassIdentifier: 
+  storyText: "The cabin is old, but well maintained. Many objects of all kind are
+    scattered about and around. Pots, blankets, food boxes, even some books. \r\nYou
+    see some heads of stuffed animals too, and the place for a rifle on the wall,
+    but the weapon is not here, and neither is its owner. This thought triggers some
+    cold sweat in you, but you quickly gather yourself and carry on observing. \r\nOn
+    a chair you see a rope, it seems like those kind of climbing ropes, about a centimeter
+    thick and very sturdy.\r\n\r\nYou choose to:\r\n1 - leave the cabin\r\n2 - take
+    the rope"
+  condition: {fileID: 11400000, guid: 2b3138da8f2242d4dbaed494b1bc4fbe, type: 2}
+  actions:
+  - {fileID: 11400000, guid: d1d08ea20a8e00747b513dbce9fce365, type: 2}
+  - {fileID: 11400000, guid: 04aef3f09e14071438d9691cd0bf57d6, type: 2}

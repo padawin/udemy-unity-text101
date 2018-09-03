@@ -11,6 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99bf45150c2dc241a9b1379efa74243, type: 3}
   m_Name: State
   m_EditorClassIdentifier: 
-  storyText: Awakening
+  storyText: "The wind in the branches. This is the first sound you hear as you wake\r
+    up. Lying on the muddy ground, your knee is scratched.\nAs you get up, you find\r
+    yourself in the middle of a forest, everything seems so foreign. Your memory\r
+    is still hazy, something must have happened to you, you probably fell and lost\r
+    consciousness. \nNow more awake, you decide to investigate around and find a way\r
+    out of here.\r\n\n1 - continue"
   condition: {fileID: 0}
-  actions: []
+  actions:
+  - {fileID: 11400000, guid: 1637883b81cb340439a6b76ab9b50e8d, type: 2}

@@ -23,6 +23,10 @@ public class StoryScene : ScriptableObject {
 
     public void executeAction(int i) {
         states[currentState].executeAction(i);
+        setState();
+    }
+
+    public void setState() {
         // Find new state to set as current one
         int nbStates = states.Length;
         for (int s = 0; s < nbStates; ++s) {

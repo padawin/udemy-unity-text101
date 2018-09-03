@@ -9,8 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc9a28b9b3e1a1742a3265f29d3c0c25, type: 3}
-  m_Name: _IntroScene
+  m_Name: _SceneCabinInside
   m_EditorClassIdentifier: 
-  storyTitle: A rough awakening
+  storyTitle: Inside the cabin
   states:
-  - {fileID: 11400000, guid: f200e1ade7733ef44b137c4b74cedba5, type: 2}
+  - {fileID: 11400000, guid: 9a8d0bc1c60597d47b4cde99bf479b3e, type: 2}
+  - {fileID: 11400000, guid: eaad9fb4a4f45444993e4ba8488e90e4, type: 2}

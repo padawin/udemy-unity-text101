@@ -8,9 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c99bf45150c2dc241a9b1379efa74243, type: 3}
-  m_Name: StateKeyUsed
+  m_Script: {fileID: 11500000, guid: 4a148378e0090a84f981d96901a820bd, type: 3}
+  m_Name: ActionGetRope
   m_EditorClassIdentifier: 
-  storyText: 
-  condition: {fileID: 0}
-  actions: []
+  player: {fileID: 11400000, guid: 161bd642e7839eb449c6f9e59a8d507c, type: 2}
+  item: rope
