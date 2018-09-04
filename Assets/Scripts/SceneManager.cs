@@ -1,15 +1,15 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 [CreateAssetMenu(menuName = "SceneManager")]
 public class SceneManager : ScriptableObject {
-    StoryScene currentScene;
+	StoryScene currentScene;
 
-    public void setScene(StoryScene scene) {
-        currentScene = scene;
-        currentScene.setState();
-    }
+	public void setScene(StoryScene scene) {
+		currentScene = scene;
+		currentScene.setState();
+	}
 
-    public StoryScene getScene() {
-        return currentScene;
-    }
+	public StoryScene getScene() {
+		return currentScene;
+	}
 }
