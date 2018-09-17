@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f95307f61c7d4b4b81a100f130a7ee0, type: 3}
   m_Name: ConditionHasNotRope
   m_EditorClassIdentifier: 
-  player: {fileID: 11400000, guid: 161bd642e7839eb449c6f9e59a8d507c, type: 2}
+  player: {fileID: 0}
   hasIt: 0
   item: rope

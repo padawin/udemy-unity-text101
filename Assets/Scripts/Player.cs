@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Player")]
-public class Player : ScriptableObject {
+public class Player : MonoBehaviour {
     List<string> inventory = new List<string>();
 
     public void addItem(string item) {

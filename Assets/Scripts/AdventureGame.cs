@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class AdventureGame : MonoBehaviour {
+	[SerializeField] Player player;
 	[SerializeField] Text sceneTitleComponent;
 	[SerializeField] Text sceneTextComponent;
 	[SerializeField] StoryScene initialScene;
